@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import NavBar from "../NavBar";
-import { Link } from "react-router-dom";
 import "./hero.css";
 import BannerCarousel from "../ImageCarousel/BannerCarousel";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const [currentTime, setCurrentTime] = useState(
@@ -31,12 +31,10 @@ const Hero = () => {
 
       <div className="carso">
         <div className="img-wrapper">
-          <Link to="https://Jbcbraiding.as.me/" target="_blank">
-            <img
-              src="https://img.freepik.com/free-photo/woman-with-dreadlocks_144627-35430.jpg?size=626&ext=jpg&uid=R125247284&ga=GA1.1.1687573895.1699960979&semt=ais"
-              alt=""
-            />
-          </Link>
+          <img
+            src="https://img.freepik.com/free-photo/woman-with-dreadlocks_144627-35430.jpg?size=626&ext=jpg&uid=R125247284&ga=GA1.1.1687573895.1699960979&semt=ais"
+            alt=""
+          />
         </div>
 
         <div className="img-wrapper">

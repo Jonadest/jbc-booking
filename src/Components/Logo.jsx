@@ -1,14 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import logo from "../logos/logo2.png";
 import "./logo.css";
 
 const Logo = () => {
   return (
     <nav className="navbar navbar-expand-lg ">
-      <Link className="navbar-brand" to="/">
+      <a className="navbar-brand" href="/">
         <img className="jbcLogo" src={logo} alt="" />
-      </Link>
+      </a>
     </nav>
   );
 };
