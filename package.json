@@ -1,5 +1,5 @@
 {
-  "name": "book-app",
+  "name": "jbc-booking-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,7 +20,7 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest"  
     ]
   },
   "browserslist": {

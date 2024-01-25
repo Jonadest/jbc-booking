@@ -1,12 +1,36 @@
-.appWrapper{
+
+.wrapper{
     
 }
+
+.book{
+    height: 100vh;
+}
+
+.booking-wrapper{
+   
+  
+   
+    
+   
+}
+
+.dateP{
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: 1px solid gray;
+   
+}
+
+
+
+
 
 
 
  /* Extra Small Devices (Phones) */
  @media only screen and (max-width: 576px) {
-   
+     
  }
  
  /* Small Devices (Tablets) */

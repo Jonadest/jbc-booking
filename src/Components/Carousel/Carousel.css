@@ -1,12 +1,26 @@
-.appWrapper{
-    
+#carouselExampleCaptions{
+    margin: 10px 100px;
 }
+
+.wrapper{
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+
+
+
+
 
 
 
  /* Extra Small Devices (Phones) */
  @media only screen and (max-width: 576px) {
-   
+    #carouselExampleCaptions{
+        margin: 10px 0px;
+    }
  }
  
  /* Small Devices (Tablets) */
