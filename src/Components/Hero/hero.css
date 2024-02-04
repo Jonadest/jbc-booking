@@ -59,6 +59,20 @@ h1{
     
 }
 
+
+.acuity-embed-button{
+background: #f4bf00; 
+color: #fff; 
+padding: 8px 12px; 
+border: 0px; 
+-webkit-box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;-moz-box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;border-radius: 4px; 
+text-decoration: none; 
+display: inline-block}
+
+.services{
+    font-size: 2rem;
+}
+
 .subTitle{
     font-size: 1.5rem;
     width: 50%;
@@ -70,7 +84,7 @@ font-size: 2rem;
 display: inline-flex;
 color: black;
 border-radius: 15px 0px 15px 0px;
-padding-top: 20px;
+padding-top: 0px;
 }
 
 .time h2 {

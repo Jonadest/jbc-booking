@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import NavBar from "../NavBar";
 import "./hero.css";
-/* import BannerCarousel from "../ImageCarousel/BannerCarousel"; */
-import { Link } from "react-router-dom";
-import { InfiniteAnimation } from "../infinite/InfiniteAnimation";
+import { Link } from "react-router-dom"; /* 
+import { InfiniteAnimation } from "../infinite/InfiniteAnimation"; */
+import Iframe from "../infinite/Iframe";
 
 const Hero = () => {
   const [currentTime, setCurrentTime] = useState(
@@ -25,14 +25,20 @@ const Hero = () => {
 
         <div className="">
           <h1 className=" ">Janny Beauty Care</h1>
-          <p className="subTitle text-center ">
-            Streamline your experience with effortless client scheduling, secure
-            payment processing, and automated workflow management. Your only
-            focus is to arrive punctually, as the rest seamlessly falls into
-            place.
-          </p>
-          <InfiniteAnimation />
-          {/* <BannerCarousel /> */}
+          <div className="sub-title">
+            <p className="subTitle text-center ">
+              Indulge in a transformative experience! Book an appointment for
+              expertly crafted braids that blend style and precision. Our
+              skilled stylists are dedicated to enhancing your natural beauty
+              with intricate braiding techniques. Elevate your look and embrace
+              the artistry of braids with us!
+            </p>
+          </div>
+          {/*  <InfiniteAnimation /> */}
+          <div className="text-center pt-5">
+            <h2 className="services">SERVICES</h2>
+          </div>
+          <Iframe />
         </div>
       </div>
 
@@ -41,11 +47,26 @@ const Hero = () => {
         <h2 className="text-center">{currentTime}</h2>
       </div>
       <div className="linkSh">
-        <Link to="https://Jbcbraiding.as.me/" target="_blank">
-          <button className="custom " id="schule" type="submit">
+        <Link
+          to="https://app.acuityscheduling.com/schedule.php?owner=31344618"
+          target="_blank"
+        >
+          <button
+            className="custom acuity-embed-button"
+            id="schule"
+            type="submit"
+          >
             <i class="fa-regular fa-calendar-days"></i> Schedule Appointment
           </button>
         </Link>
+        {/* <a
+          href="https://app.acuityscheduling.com/schedule.php?owner=31344618"
+          target="_blank"
+          className="acuity-embed-button"
+          style="background: #f4bf00; color: #fff; padding: 8px 12px; border: 0px; -webkit-box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;-moz-box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;border-radius: 4px; text-decoration: none; display: inline-block;"
+        >
+          Schedule Appointment
+        </a> */}
       </div>
     </div>
   );
