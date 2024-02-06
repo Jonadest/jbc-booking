@@ -1,15 +1,15 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../logos/logo2.png";
 import "./logo.css";
 
 const Logo = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg ">
-        <a className="navbar-brand" href="/">
+      <div className="navbar navbar-expand-lg ">
+        <Link className="navbar-brand" to="/">
           <img className="jbcLogo ro-logo" src={logo} alt="" />
-        </a>
-      </nav>
+        </Link>
+      </div>
     </div>
   );
 };

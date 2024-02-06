@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import NavBar from "../NavBar";
 import "./hero.css";
 import { Link } from "react-router-dom"; /* 
 import { InfiniteAnimation } from "../infinite/InfiniteAnimation"; */
 import Iframe from "../infinite/Iframe";
+import ShareButton from "../ShareButton";
 
 const Hero = () => {
   const [currentTime, setCurrentTime] = useState(
@@ -21,10 +21,12 @@ const Hero = () => {
   return (
     <div className="heroBody text-center  ">
       <div id="section1">
-        <NavBar />
-
         <div className="">
-          <h1 className=" ">Janny Beauty Care</h1>
+          <p className="location">
+            <i className="fa-solid fa-location-dot"></i> New Jersey
+          </p>
+          <h1 className=" title-h1">Janny Beauty Care</h1>
+
           <div className="sub-title">
             <p className="subTitle text-center ">
               Indulge in a transformative experience! Book an appointment for
@@ -33,6 +35,7 @@ const Hero = () => {
               with intricate braiding techniques. Elevate your look and embrace
               the artistry of braids with us!
             </p>
+            <ShareButton />
           </div>
           {/*  <InfiniteAnimation /> */}
           <div className="text-center pt-5">
@@ -56,7 +59,7 @@ const Hero = () => {
             id="schule"
             type="submit"
           >
-            <i class="fa-regular fa-calendar-days"></i> Schedule Appointment
+            <i class="fa-regular fa-calendar-days"></i> Schedule Now!!!
           </button>
         </Link>
         {/* <a

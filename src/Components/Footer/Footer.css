@@ -11,6 +11,17 @@
     border-top: 10px solid #ffcf40;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+a:hover{
+    color: #fff;
+}
+
 .footer img{
     width: 30px;
 }
@@ -40,6 +51,7 @@
     padding-top: 20px;
     color: #ffcf40;
     text-transform:uppercase;
+    font-size: 12px;
 }
 
 .copyright{

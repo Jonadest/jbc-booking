@@ -1,13 +1,71 @@
-.main{
+.appWrapper{
     background:linear-gradient(0deg, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(https://png.pngtree.com/background/20210710/original/pngtree-plant-flowers-background-design-picture-image_975811.jpg);
     background-size: cover;
    background-position: center;
    padding-bottom: 50px;
 }
 
-.iframe{
+*,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.copyIcon{
+    font-size: 1.5rem;
+}
+
+.share{
+    margin: 20px 0px;
+}
+.share-icons{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   flex-wrap: wrap;
+   cursor: pointer;
+   
+}
+.nav-wrapper ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
     
 }
+
+ul .nav-li{
+   
+}
+
+.active-menu-item{
+    color: #fff;
+}
+
+ul a{
+    text-decoration: none;
+    color: inherit;
+    padding: 5px 10px;
+    background-color: black;
+    color: #f4bf00;
+    border-radius: 10px 0px 10px  0px;
+    cursor: pointer;
+    transition: all 1s ease;
+    
+    
+}
+
+ul  a:hover{
+    background-color: rgb(24, 17, 17);
+    padding: 8px 13px;
+    color: #fff;
+    }
+
+
+
 
 
  /* Extra Small Devices (Phones) */

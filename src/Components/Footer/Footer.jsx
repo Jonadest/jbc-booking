@@ -2,8 +2,8 @@ import React from "react";
 import "./Footer.css";
 import facebook from "../social/facebook.png";
 import instagram from "../social/instagram.png";
-import tik from "../social/tik.png";
-import youtube from "../social/youtube.png";
+import tik from "../social/tik.png"; /*
+import youtube from "../social/youtube.png"; */
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -27,15 +27,24 @@ const Footer = () => {
           <img src={tik} alt="" />
         </Link>
 
-        <Link to="#" target="_blank">
+        {/*  <Link to="#" target="_blank">
           <img src={youtube} alt="" />
-        </Link>
+        </Link> */}
       </div>
       <hr className="line " />
       <div className="footermenu">
-        <p>Our Services</p>
-        <p>Our Contact</p>
-        <p>About Us</p>
+        <Link to="/">
+          <p>Home</p>
+        </Link>
+        <Link to="/services">
+          <p>Our Services</p>
+        </Link>
+        <Link to="/gallery">
+          <p>Gallery</p>
+        </Link>
+        <Link to="/contact">
+          <p>Contact</p>
+        </Link>
       </div>
       <hr className="line " />
       <p className="text-center text-light copyright">
