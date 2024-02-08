@@ -1,19 +1,22 @@
-
-
-
 .scroller {
     width: 100%;
   }
   
-  .scroller__inner {
-    padding:  0.5rem;
+  .scrollerI {
+    margin-top: 1rem;
+    padding-block: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
     
   }
+ 
 
 
-  .scroller__inner img{
+  .scrollerI img{
+    width: 200px;
     border-radius: 20px 0px 20px 0px;
-    width: 400px;
     background-size: cover;
     background-position: center;
     box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.75);
@@ -25,7 +28,7 @@
 
  
   
-  .scroller__inner {
+  .scrollerI {
     padding-block: 1rem;
     display: flex;
     flex-wrap: wrap;
@@ -34,13 +37,13 @@
   
   .scroller[data-animated="true"] {
     overflow: hidden;
-  
+    
   }
   
-  .scroller[data-animated="true"] .scroller__inner {
+  .scroller[data-animated="true"] .scrollerI {
     width: max-content;
     flex-wrap: nowrap;
-    animation: scroll var(--_animation-duration, 40s)
+    animation: scroll var(--_animation-duration, 0s)
       var(--_animation-direction, forwards) linear infinite;
   }
   
@@ -57,7 +60,8 @@
   }
   
   .scroller[data-speed="slow"] {
-    --_animation-duration: 20s;
+    --_animation-duration: 40s;
+    
   }
   
   @keyframes scroll {
@@ -81,8 +85,8 @@
 
   /* Extra Small Devices (Phones) */
  @media only screen and (max-width: 576px) {
-  .scroller__inner img{
-    width: 200px;
+  .scrollerI img{
+    width: 150px;
     
   }
    
@@ -90,7 +94,10 @@
  
  /* Small Devices (Tablets) */
  @media only screen and (min-width: 577px) and (max-width: 767px) {
- 
+  .scrollerI img{
+    width: 150px;
+    
+  }
    
  }
  

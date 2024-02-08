@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import Iframe from "../infinite/Iframe";
 
 const Services = () => {
   return (
     <Link to="/services">
       <div>
-        <h1>Services</h1>
+        <Iframe />
       </div>
     </Link>
   );

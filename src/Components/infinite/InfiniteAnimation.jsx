@@ -1,6 +1,14 @@
 import React, { useEffect } from "react";
 import "./InfiniteCarousel.css";
-export const InfiniteAnimation = () => {
+import Sample1 from "../Gallery1/31.jpg";
+import Sample2 from "../Gallery1/4.jpg";
+import Sample3 from "../Gallery1/21.jpg";
+import Sample4 from "../Gallery1/3.jpg";
+import Sample5 from "../Gallery1/26.jpg";
+import Sample6 from "../Gallery1/23.jpg";
+import { Link } from "react-router-dom";
+
+const InfiniteAnimation = () => {
   useEffect(() => {
     const scrollers = document.querySelectorAll(".scroller");
 
@@ -12,7 +20,7 @@ export const InfiniteAnimation = () => {
       scrollers.forEach((scroller) => {
         scroller.setAttribute("data-animated", true);
 
-        const scrollerInner = scroller.querySelector(".scroller__inner");
+        const scrollerInner = scroller.querySelector(".scrollerI");
         const scrollerContent = Array.from(scrollerInner.children);
 
         scrollerContent.forEach((item) => {
@@ -24,43 +32,19 @@ export const InfiniteAnimation = () => {
     }
   }, []);
   return (
-    <div className="scroller" data-direction="left" data-speed="slow">
-      <div className="scroller__inner">
-        <img
-          src="https://img.freepik.com/free-photo/close-up-portrait-beautiful-woman_23-2149150981.jpg?size=626&ext=jpg&uid=R125247284&ga=GA1.1.1687573895.1699960979&semt=ais"
-          alt=""
-        />
-
-        <img
-          src="https://img.freepik.com/free-photo/portrait-beautiful-smiling-woman-city_1157-38012.jpg?size=626&ext=jpg&uid=R125247284&ga=GA1.1.1687573895.1699960979&semt=ais"
-          alt=""
-        />
-
-        <img
-          src="https://img.freepik.com/free-photo/african-red-haired-volunteer-woman-with-clipboard-park-africa-volunteering-charity-people-ecology-concept_627829-13849.jpg?w=740&t=st=1700431938~exp=1700432538~hmac=6d622f10fd93fb26ca69947fe6c52ce06ab17f7c6bd843c222efc7c8a4398b7a"
-          alt=""
-        />
-
-        <img
-          src="https://img.freepik.com/free-photo/black-woman-with-african-braids-natural-hair_633478-1394.jpg?size=626&ext=jpg&uid=R125247284&ga=GA1.1.1687573895.1699960979&semt=ais"
-          alt=""
-        />
-
-        <img
-          src="https://img.freepik.com/free-photo/creative-portrait-beautiful-woman_23-2149150331.jpg?size=626&ext=jpg&uid=R125247284&ga=GA1.1.1687573895.1699960979&semt=ais"
-          alt=""
-        />
-
-        <img
-          src="https://img.freepik.com/free-photo/elegant-black-girl-summer-city_1157-20778.jpg?size=626&ext=jpg&uid=R125247284&ga=GA1.1.1687573895.1699960979&semt=ais"
-          alt=""
-        />
-
-        <img
-          src="https://img.freepik.com/free-photo/portrait-attractive-asian-model-girl-with-braided-hairstyle_158595-3610.jpg?size=626&ext=jpg&uid=R125247284&ga=GA1.1.1687573895.1699960979&semt=ais"
-          alt=""
-        />
+    <Link to="/services">
+      <div className="scroller" data-direction="left" data-speed="slow">
+        <div className="scrollerI">
+          <img src={Sample1} alt="sample images" />
+          <img src={Sample2} alt="sample images" />
+          <img src={Sample3} alt="sample images" />
+          <img src={Sample4} alt="sample images" />
+          <img src={Sample5} alt="sample images" />
+          <img src={Sample6} alt="sample images" />
+        </div>
       </div>
-    </div>
+    </Link>
   );
 };
+
+export default InfiniteAnimation;

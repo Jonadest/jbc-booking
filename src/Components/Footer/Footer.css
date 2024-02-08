@@ -11,14 +11,14 @@
     border-top: 10px solid #ffcf40;
 }
 
-a{
+.footer a{
     text-decoration: none;
     color: inherit;
     cursor: pointer;
     transition: all 0.5s;
 }
 
-a:hover{
+.footer a:hover{
     color: #fff;
 }
 

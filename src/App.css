@@ -1,8 +1,9 @@
 .appWrapper{
-    background:linear-gradient(0deg, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url(https://png.pngtree.com/background/20210710/original/pngtree-plant-flowers-background-design-picture-image_975811.jpg);
+    background:linear-gradient(0deg, rgb(142, 179, 161), rgba(248, 248, 248, 0)), url(https://png.pngtree.com/background/20210710/original/pngtree-plant-flowers-background-design-picture-image_975811.jpg);
     background-size: cover;
    background-position: center;
-   padding-bottom: 50px;
+   background-blend-mode: multiply;
+   
 }
 
 *,body{

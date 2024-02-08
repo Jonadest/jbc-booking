@@ -26,28 +26,26 @@ const ShareButtons = () => {
 
   return (
     <div className="share">
-      <p> Share</p>
-
       <div className="share-icons">
         {/* Facebook Share Button */}
         <FacebookShareButton url={shareUrl} quote={title} hashtag="#muo">
-          <FacebookIcon size={32} round />
+          <FacebookIcon size={25} round />
         </FacebookShareButton>
         {/* Twitter Share Button */}
         <TwitterShareButton url={shareUrl} title={title}>
-          <TwitterIcon size={32} round />
+          <TwitterIcon size={25} round />
         </TwitterShareButton>
         {/* LinkedIn Share Button */}
         <LinkedinShareButton url={shareUrl} title={title}>
-          <LinkedinIcon size={32} round />
+          <LinkedinIcon size={25} round />
         </LinkedinShareButton>
         {/* Reddit Share Button */}
         <RedditShareButton url={shareUrl} title={title}>
-          <RedditIcon size={32} round />
+          <RedditIcon size={25} round />
         </RedditShareButton>
         {/* WhatsApp Share Button */}
         <WhatsappShareButton url={shareUrl} title={title}>
-          <WhatsappIcon size={32} round />
+          <WhatsappIcon size={25} round />
         </WhatsappShareButton>
         {/* Email Share Button */}
         <EmailShareButton
@@ -55,11 +53,11 @@ const ShareButtons = () => {
           subject={title}
           body="Check out this awesome content!"
         >
-          <EmailIcon size={32} round />
+          <EmailIcon size={25} round />
         </EmailShareButton>
         {/* Copy URL Button */}
         <CopyToClipboard text={shareUrl} onCopy={handleCopy}>
-          <i class="fa-solid fa-copy copyIcon"></i>
+          <i class="fa-solid fa-copy copyIcon text-light"></i>
         </CopyToClipboard>
       </div>
     </div>

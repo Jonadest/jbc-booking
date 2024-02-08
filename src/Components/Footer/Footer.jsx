@@ -5,6 +5,7 @@ import instagram from "../social/instagram.png";
 import tik from "../social/tik.png"; /*
 import youtube from "../social/youtube.png"; */
 import { Link } from "react-router-dom";
+import ShareButtons from "../ShareButton";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -31,6 +32,8 @@ const Footer = () => {
           <img src={youtube} alt="" />
         </Link> */}
       </div>
+      <p className="text-center text-light ">Follow us on social media</p>
+      <ShareButtons />
       <hr className="line " />
       <div className="footermenu">
         <Link to="/">

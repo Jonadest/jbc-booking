@@ -11,9 +11,7 @@
 }
 
 
-.linkSh{
-    padding-top: 5px;
-}
+
 
 
 
@@ -53,21 +51,14 @@
 .title-h1{
     padding-top: 0px;
     font-size: 3rem;
-    color: #fff;
+    color: black;
     font-weight: 700;
-    text-shadow: -3px 4px 4px rgba(16,5,5,0.6);
+    text-shadow: -3px 4px 4px rgba(255, 255, 255, 0.6);
     
 }
 
 
-.acuity-embed-button{
-background: #f4bf00; 
-color: #fff; 
-padding: 8px 12px; 
-border: 0px; 
--webkit-box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;-moz-box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;border-radius: 4px; 
-text-decoration: none; 
-display: inline-block}
+
 
 .services{
     font-size: 2rem;
@@ -77,6 +68,7 @@ display: inline-block}
     font-size: 1.5rem;
     width: 50%;
     margin: 0 auto;
+    color: rgb(15, 15, 15);
 }
 
 h2{
@@ -84,12 +76,12 @@ font-size: 2rem;
 display: inline-flex;
 color: black;
 border-radius: 15px 0px 15px 0px;
-padding-top: 50px;
+padding-top: 30px;
 }
 
 .location{
     font-size: 1rem;
-    padding-top: 80px;
+    padding-top: 0px;
 }
 
 .fa-location-dot{
@@ -103,13 +95,14 @@ padding-top: 50px;
 .time h2 {
     margin-top: 0px;
     color: #fff;
-    text-shadow: -3px 4px 4px rgba(16,5,5,0.6);
+    text-shadow: 0px 0px 10px rgba(16, 5, 5, 0.986);
 }
 
 
 #schule{
-    margin-bottom: 50px;
+   margin: 20px auto;
     font-size: 18px;
+    font-weight: bold;
     background-color: #ffcf40;
     padding: 10px 15px;
     border-radius: 10px;
