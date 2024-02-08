@@ -44,6 +44,7 @@
  text-shadow: 0px 0px 10px rgba(16, 2, 2, 0.506);
  color: #fff;
 }
+
 .detailsSide p, i{
  font-size: 2rem;
 }
@@ -94,12 +95,33 @@
 
      }
     
+     .detailsSide p, i{
+      font-size: 1rem;
+     }
   
    
  }
  
  /* Small Devices (Tablets) */
  @media only screen and (min-width: 577px) and (max-width: 767px) {
+  .detailsSide{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+  }
+ 
+  .detailsSide h1{
+    font-size: 20px;
+    text-transform: uppercase;
+
+   }
+  
+   .detailsSide p, i{
+    font-size: 1rem;
+   }
  
    
  }
