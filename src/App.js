@@ -5,7 +5,7 @@ import "./App.css";
 import Hero from "./Components/Hero/Hero";
 import Footer from "./Components/Footer/Footer";
 import NavBar from "./Components/NavBar";
-import Gallery from "./Components/Gallery1/Gallery";
+import Gallery from "./Components/Gallery/Gallery";
 import Contact from "./Components/MenuBar/Contact";
 import Services from "./Components/MenuBar/Services";
 

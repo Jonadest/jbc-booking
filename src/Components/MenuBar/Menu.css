@@ -8,6 +8,10 @@
   
 }
 
+iframe .poweredby-content .babel-ignore img{
+  display: none;
+}
+
 
 .contact{
   display: flex;
@@ -23,7 +27,7 @@
 
 .imgSide{
   width: 50%;
-  background: url(../Gallery1/31.jpg);
+  background: url(../Gallery/31.jpg);
   background-position:center;
   background-size: cover;
   border-radius: 10px 0px 0px 0px;

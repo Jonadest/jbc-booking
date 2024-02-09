@@ -1,13 +1,13 @@
-import { Link } from "react-router-dom";
-import Iframe from "../infinite/Iframe";
+import "./Menu.css";
+import Iframe from "./Iframe";
 
 const Services = () => {
   return (
-    <Link to="/services">
-      <div>
+    <div to="/services">
+      <div className="iframe">
         <Iframe />
       </div>
-    </Link>
+    </div>
   );
 };
 

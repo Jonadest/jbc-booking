@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
 import "./InfiniteCarousel.css";
-import Sample1 from "../Gallery1/31.jpg";
-import Sample2 from "../Gallery1/4.jpg";
-import Sample3 from "../Gallery1/21.jpg";
-import Sample4 from "../Gallery1/3.jpg";
-import Sample5 from "../Gallery1/26.jpg";
-import Sample6 from "../Gallery1/23.jpg";
+import Sample1 from "../Gallery/31.jpg";
+import Sample2 from "../Gallery/4.jpg";
+import Sample3 from "../Gallery/21.jpg";
+import Sample4 from "../Gallery/3.jpg";
+import Sample5 from "../Gallery/26.jpg";
+import Sample6 from "../Gallery/23.jpg";
 import { Link } from "react-router-dom";
 
 const InfiniteAnimation = () => {

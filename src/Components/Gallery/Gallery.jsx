@@ -9,7 +9,7 @@ import {
 
 import "./Gallery.css";
 
-const Gallery1 = () => {
+const Gallery = () => {
   const [slideNumber, setSlideNumber] = useState(0);
   const [openModal, setOpenModal] = useState(false);
 
@@ -38,8 +38,8 @@ const Gallery1 = () => {
   };
 
   return (
-    <div className="text-center">
-      <h1 className="gallery-h1">Explore Our Beautiful Samples.</h1>
+    <div className="text-center ">
+      <h1 className="gallery-h1">Explore Our Beautiful Styles.</h1>
       {openModal && (
         <div className="sliderWrap">
           <FontAwesomeIcon
@@ -87,4 +87,4 @@ const Gallery1 = () => {
   );
 };
 
-export default Gallery1;
+export default Gallery;

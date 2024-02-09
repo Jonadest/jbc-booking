@@ -1,6 +1,6 @@
 const Iframe = () => {
   return (
-    <div className="iframe">
+    <div className="">
       <iframe
         src="https://app.acuityscheduling.com/schedule.php?owner=31344618"
         title="Schedule Appointment"
