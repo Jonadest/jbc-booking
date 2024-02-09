@@ -15,6 +15,7 @@ const App = () => {
       <div>
         <div className="appWrapper">
           <NavBar />
+
           <Routes>
             <Route path="/" element={<Hero />} />
             <Route path="/gallery" element={<Gallery />} />

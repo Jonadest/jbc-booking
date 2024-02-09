@@ -16,7 +16,7 @@
     color: inherit;
     cursor: pointer;
     transition: all 0.5s;
-}
+}s
 
 .footer a:hover{
     color: #fff;
@@ -34,15 +34,7 @@
     margin-bottom: 20px;
     
 }
-.line{
-   
-    width: 50%;
-    margin: 0 auto;
-    border: 2px solid#ffcf40;
-    
-    margin-top: 0px;
-    
-}
+
 
 .footermenu{
     display: flex;
@@ -60,7 +52,13 @@
 }
 
 
-
+.hr-footer{
+    color: #ffcf40;
+    border: 1px solid #ffcf40;
+    width: 70%;
+    margin: 10px auto;
+    
+}
 
 
 

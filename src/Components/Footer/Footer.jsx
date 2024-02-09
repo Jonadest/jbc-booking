@@ -32,9 +32,10 @@ const Footer = () => {
           <img src={youtube} alt="" />
         </Link> */}
       </div>
-      <p className="text-center text-light ">Follow us on social media</p>
+      <hr className="hr-footer" />
+      <p className="text-center text-light ">SHARE</p>
       <ShareButtons />
-      <hr className="line " />
+      <hr className="hr-footer" />
       <div className="footermenu">
         <Link to="/">
           <p>Home</p>
@@ -49,7 +50,7 @@ const Footer = () => {
           <p>Contact</p>
         </Link>
       </div>
-      <hr className="line " />
+
       <p className="text-center text-light copyright">
         &copy;{currentYear} JBC. All rights reserved.
       </p>
