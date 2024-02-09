@@ -50,7 +50,7 @@
 
 .title-h1{
     padding-top: 0px;
-    font-size: 3rem;
+   
     color: black;
     font-weight: 700;
     text-shadow: -3px 4px 4px rgba(255, 255, 255, 0.6);
@@ -64,12 +64,7 @@
     font-size: 2rem;
 }
 
-.subTitle{
-    font-size: 1.5rem;
-    width: 50%;
-    margin: 0 auto;
-    color: rgb(15, 15, 15);
-}
+
 
 h2{
 font-size: 2rem;
@@ -129,7 +124,7 @@ h3{
 
 
 
-
+ 
 
 @media (max-width: 400px) {
     .img-wrapper img{
@@ -142,18 +137,69 @@ h3{
         
         }
 
-        .subTitle{
-            font-size: 1rem;
-            width: 80%;
-            margin: 0 auto;
-        }
-
+       
    
 
 
     .title-h1{
         padding-top: 0px;
-        font-size: 2rem;
+        
         
     }
 }
+ 
+
+
+
+/* For standard desktop screens */
+@media only screen and (min-width: 1200px) {
+    .subTitle{
+        width: 60%;
+        margin: 0 auto;
+        color: rgb(15, 15, 15);
+        font-size: 1.5rem;
+    }
+  }
+  
+  /* For widescreen desktop screens */
+  @media only screen and (min-width: 1600px) {
+    .subTitle{
+        width: 50%;
+        margin: 0 auto;
+        color: rgb(15, 15, 15);
+        font-size: 1.5rem;
+    }
+  }
+  
+  /* For small desktop screens */
+  @media only screen and (max-width: 1366px) {
+    .subTitle{
+        width: 80%;
+        margin: 0 auto;
+        color: rgb(15, 15, 15);
+        font-size: 1.5rem;
+    }
+  }
+  
+  /* For tablet screens */
+  @media only screen and (max-width: 1024px) {
+    .subTitle{
+        width: 80%;
+        margin: 0 auto;
+        color: rgb(15, 15, 15);
+        font-size: 18px;
+    }
+  }
+  
+  /* For mobile screens */
+  @media only screen and (max-width: 768px) {
+    .subTitle{
+        width: 90%;
+        margin: 0 auto;
+        color: rgb(15, 15, 15);
+        font-size: 16px;
+    }
+  }
+  
+  /* Additional media queries for specific devices can be added as needed */
+  
