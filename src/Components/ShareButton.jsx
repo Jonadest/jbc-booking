@@ -16,11 +16,10 @@ import {
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
 const ShareButtons = () => {
-  const shareUrl = "https://jbc-booking.vercel.app/";
+  const shareUrl = "https://jannybeautycare.com/";
   const title = "Book with us today to enjoy our limited offer";
 
   const handleCopy = () => {
-    // Implement any feedback or logic after copying to clipboard
     console.log("URL copied to clipboard!");
   };
 
@@ -28,7 +27,7 @@ const ShareButtons = () => {
     <div className="share">
       <div className="share-icons">
         {/* Facebook Share Button */}
-        <FacebookShareButton url={shareUrl} quote={title} hashtag="#muo">
+        <FacebookShareButton url={shareUrl} quote={title} hashtag="#braids">
           <FacebookIcon size={25} round />
         </FacebookShareButton>
         {/* Twitter Share Button */}
