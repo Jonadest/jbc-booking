@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import {
   FacebookShareButton,
   TwitterShareButton,
@@ -17,7 +18,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 
 const ShareButtons = () => {
   const shareUrl = "https://jannybeautycare.com/services";
-  const title = "Book with us today to enjoy our limited offer";
+  const title = "JBC | New Jersey";
 
   const handleCopy = () => {
     console.log("URL copied to clipboard!");
@@ -25,6 +26,16 @@ const ShareButtons = () => {
 
   return (
     <div className="share">
+      <Helmet>
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content="We are open for booking" />
+        <meta property="og:url" content={shareUrl} />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/di2ftwqmk/image/upload/v1709038887/18_l1y3oz.jpg"
+        />
+      </Helmet>
+
       <div className="share-icons">
         {/* Facebook Share Button */}
         <FacebookShareButton url={shareUrl} quote={title} hashtag="#braids">
@@ -56,7 +67,7 @@ const ShareButtons = () => {
         </EmailShareButton>
         {/* Copy URL Button */}
         <CopyToClipboard text={shareUrl} onCopy={handleCopy}>
-          <i class="fa-solid fa-copy copyIcon text-light"></i>
+          <i className="fa-solid fa-copy copyIcon text-light"></i>
         </CopyToClipboard>
       </div>
     </div>
