@@ -1,205 +1,158 @@
-.banner{
-    width: 100%;
+.banner {
+  width: 100%;
 }
 
-.btn-custom{
-    background-color: aqua;
+.btn-custom {
+  background-color: aqua;
 }
 
-.heroBody{
-   height: 100%;
+.heroBody {
+  height: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-.carso{
-    display: flex;
-    gap: 15px;
-    width: 100%;
-   margin: 0 auto;
+.carso {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-
-
-
-.img-wrapper img{
-    border-radius: 20px 0px 20px 0px;
-    width: 400px;
-    box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.75);
-    border: 2px solid #fff;
+.img-wrapper img {
+  border-radius: 20px 0px 20px 0px;
+  width: 400px;
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.75);
+  border: 2px solid #fff;
 }
 
-
-
-
-.img-wrapper{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 0px 5px;
-
+.img-wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0px 5px;
 }
 
-.title-h1{
-    padding-top: 0px;
-   
-    color: black;
-    font-weight: 700;
-    text-shadow: -3px 4px 4px rgba(255, 255, 255, 0.6);
-    
+.title-h1 {
+  padding-top: 0px;
+
+  color: black;
+  font-weight: 700;
+  text-shadow: -3px 4px 4px rgba(255, 255, 255, 0.6);
 }
 
-
-
-
-.services{
-    font-size: 2rem;
+.services {
+  font-size: 2rem;
 }
 
-
-
-h2{
-font-size: 2rem;
-display: inline-flex;
-color: black;
-border-radius: 15px 0px 15px 0px;
-padding-top: 30px;
+h2 {
+  font-size: 2rem;
+  display: inline-flex;
+  color: black;
+  border-radius: 15px 0px 15px 0px;
+  padding-top: 30px;
 }
 
-.location{
-    font-size: 1rem;
-    padding-top: 0px;
+.location {
+  font-size: 1rem;
+  padding-top: 0px;
 }
 
-.fa-location-dot{
-    font-size: 1rem;
+.fa-location-dot {
+  font-size: 1rem;
 }
 
-.fa-calendar-days{
-    color: black;
+.fa-calendar-days {
+  color: black;
 }
 
 .time h2 {
-    margin-top: 0px;
-    color: #fff;
-    text-shadow: 0px 0px 10px rgba(16, 5, 5, 0.986);
+  margin-top: 0px;
+  color: #fff;
+  text-shadow: 0px 0px 10px rgba(16, 5, 5, 0.986);
 }
 
-
-#schule{
-   margin: 20px auto;
-    font-size: 18px;
-    font-weight: bold;
-    background-color: #ffcf40;
-    padding: 10px 15px;
-    border-radius: 10px;
-    border: none;
-    color: black;
-    box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.75);
-    border: 2px solid #fff;
+#schule {
+  margin: 20px auto;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ffcf40;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.75);
+  border: 2px solid #fff;
 }
 
-
-h3{
-    color: #ffcf40;
-    
+h3 {
+  color: #ffcf40;
 }
-
-
-
-
-
-
-
-
-
-
- 
 
 @media (max-width: 400px) {
-    .img-wrapper img{
-        border-radius: 10px;
-        width: 200px;
-    }
+  .img-wrapper img {
+    border-radius: 10px;
+    width: 200px;
+  }
 
-    h2{
-        font-size: 1rem;
-        
-        }
+  h2 {
+    font-size: 1rem;
+  }
 
-       
-   
-
-
-    .title-h1{
-        padding-top: 0px;
-        
-        
-    }
+  .title-h1 {
+    padding-top: 0px;
+  }
 }
- 
-
-
 
 /* For standard desktop screens */
 @media only screen and (min-width: 1200px) {
-    .subTitle{
-        width: 60%;
-        margin: 0 auto;
-        color: rgb(15, 15, 15);
-        font-size: 1.5rem;
-    }
+  .subTitle {
+    width: 60%;
+    margin: 0 auto;
+    color: rgb(15, 15, 15);
+    font-size: 1.5rem;
   }
-  
-  /* For widescreen desktop screens */
-  @media only screen and (min-width: 1600px) {
-    .subTitle{
-        width: 50%;
-        margin: 0 auto;
-        color: rgb(15, 15, 15);
-        font-size: 1.5rem;
-    }
+}
+
+/* For widescreen desktop screens */
+@media only screen and (min-width: 1600px) {
+  .subTitle {
+    width: 50%;
+    margin: 0 auto;
+    color: rgb(15, 15, 15);
+    font-size: 1.5rem;
   }
-  
-  /* For small desktop screens */
-  @media only screen and (max-width: 1366px) {
-    .subTitle{
-        width: 80%;
-        margin: 0 auto;
-        color: rgb(15, 15, 15);
-        font-size: 1.5rem;
-    }
+}
+
+/* For small desktop screens */
+@media only screen and (max-width: 1366px) {
+  .subTitle {
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(15, 15, 15);
+    font-size: 1.5rem;
   }
-  
-  /* For tablet screens */
-  @media only screen and (max-width: 1024px) {
-    .subTitle{
-        width: 80%;
-        margin: 0 auto;
-        color: rgb(15, 15, 15);
-        font-size: 18px;
-    }
+}
+
+/* For tablet screens */
+@media only screen and (max-width: 1024px) {
+  .subTitle {
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(15, 15, 15);
+    font-size: 18px;
   }
-  
-  /* For mobile screens */
-  @media only screen and (max-width: 768px) {
-    .subTitle{
-        width: 90%;
-        margin: 0 auto;
-        color: rgb(15, 15, 15);
-        font-size: 16px;
-    }
+}
+
+/* For mobile screens */
+@media only screen and (max-width: 768px) {
+  .subTitle {
+    width: 90%;
+    margin: 0 auto;
+    color: rgb(15, 15, 15);
+    font-size: 16px;
   }
-  
-  /* Additional media queries for specific devices can be added as needed */
-  
+}
+
+/* Additional media queries for specific devices can be added as needed */

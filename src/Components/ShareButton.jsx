@@ -16,7 +16,7 @@ import {
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
 const ShareButtons = () => {
-  const shareUrl = "https://jannybeautycare.com/";
+  const shareUrl = "https://jannybeautycare.com/services";
   const title = "Book with us today to enjoy our limited offer";
 
   const handleCopy = () => {
