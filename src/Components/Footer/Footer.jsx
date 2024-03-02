@@ -53,6 +53,15 @@ const Footer = () => {
 
       <p className="text-center text-light copyright">
         &copy;{currentYear} JBC. All rights reserved.
+        <p>
+          Designed by{" "}
+          <Link
+            to="https://www.instagram.com/jonadestboss?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank"
+          >
+            <strong>Jonadest</strong>
+          </Link>
+        </p>
       </p>
     </div>
   );
