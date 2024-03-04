@@ -4,6 +4,20 @@ import { Link } from "react-router-dom";
 import stylesDetails from "./stylesDetails.js"; // Import the stylesDetails object
 
 const HairStylesCard = () => {
+  const handleShare = (url) => {
+    if (navigator.share) {
+      navigator
+        .share({
+          url: url,
+        })
+        .then(() => console.log("Successful share"))
+        .catch((error) => console.log("Error sharing", error));
+    } else {
+      console.log("Web Share API not supported");
+      // Handle sharing using a different method if needed
+    }
+  };
+
   return (
     <div className="cardWrapper">
       {stylesDetails.map((style, index) => (
@@ -16,9 +30,9 @@ const HairStylesCard = () => {
             <Link to={style.url} className="btn btn-dark">
               Book
             </Link>
-            <Link to={style.SHareUrl} className="btn ">
-              <i className="fa-solid fa-square-share-nodes"></i>
-            </Link>
+            <button onClick={() => handleShare(style.ShareUrl)} className="btn">
+              Share
+            </button>
           </div>
         </div>
       ))}
