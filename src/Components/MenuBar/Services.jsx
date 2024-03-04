@@ -1,13 +1,13 @@
 import "./Menu.css";
-import Iframe from "./Iframe";
+import HairStylesCard from "../Calendly/HairStyles/HairStylesCard";
 
 const Services = () => {
   return (
-    <div to="/services">
+    <>
       <div className="iframe">
-        <Iframe />
+        <HairStylesCard />
       </div>
-    </div>
+    </>
   );
 };
 

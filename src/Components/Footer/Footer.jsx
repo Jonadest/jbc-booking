@@ -46,22 +46,20 @@ const Footer = () => {
         <Link to="/gallery">
           <p>Gallery</p>
         </Link>
+        <Link to="https://www.instagram.com/jbcbraids/" target="_blank">
+          <p>Latest Jobs</p>
+        </Link>
         <Link to="/contact">
           <p>Contact</p>
         </Link>
       </div>
 
       <p className="text-center text-light copyright">
-        &copy;{currentYear} JBC. All rights reserved.
-        <p>
-          Designed by{" "}
-          <Link
-            to="https://www.instagram.com/jonadestboss?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-            target="_blank"
-          >
-            <strong>Jonadest</strong>
-          </Link>
-        </p>
+        &copy;{currentYear}
+        <Link to="https://www.instagram.com/jbcbraids/" target="_blank">
+          <strong> JBC</strong>
+        </Link>
+        <p> All rights reserved.</p>
       </p>
     </div>
   );

@@ -1,0 +1,54 @@
+.card {
+  width: 18rem;
+}
+.title {
+  text-transform: capitalize;
+}
+
+.cardWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+
+.calendly-inline-widget {
+  min-width: 320px;
+  height: 700px;
+}
+
+.fa-square-share-nodes {
+  font-size: 2rem;
+  padding-left: 5px;
+}
+
+/* Extra Small Devices (Phones) */
+@media only screen and (max-width: 576px) {
+}
+
+/* Small Devices (Tablets) */
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+}
+
+/* Medium Devices (Laptops, Desktops) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /*  .title {
+    height: 95px;
+  } */
+}
+
+/* Large Devices (Large Laptops, Desktops) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  /* .title {
+    height: 95px;
+  } */
+}
+
+/* Extra Large Devices (Large Desktops) */
+@media only screen and (min-width: 1200px) {
+  /*  .title {
+    height: 95px;
+  } */
+}

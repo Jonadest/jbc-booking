@@ -40,6 +40,7 @@ const Hero = () => {
               with intricate braiding techniques. Elevate your look and embrace
               the artistry of braids with us!
             </p>
+
             <InfiniteAnimation />
             <div>
               <Link to="/services">
